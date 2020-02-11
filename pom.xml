@@ -21,4 +21,11 @@
       <version>${jersey.version}</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+	  <name>Internal Snapshot Release</name>
+    <url>http://3.6.206.161:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
